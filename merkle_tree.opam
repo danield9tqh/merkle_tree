@@ -7,5 +7,5 @@ A merkle tree library for OCaml
 """
 maintainer: "Daniel <danield9tqh@gmail.com>"
 authors: "Daniel <danield9tqh@gmail.com>"
-depends: [ "ocaml" "ocamlfind" "cryptokit" ]
+depends: [ "ocaml" "ocamlfind" "cryptokit" "ppx_deriving.ord" "ppx_deriving.show"]
 build: ["dune" "build" "-p" name "-j" jobs]
