@@ -1,0 +1,11 @@
+opam-version: "2.0"
+name: "merkle_tree"
+version: "0.1"
+synopsis: "A merkle tree library for OCaml"
+description: """
+A merkle tree library for OCaml
+"""
+maintainer: "Daniel <danield9tqh@gmail.com>"
+authors: "Daniel <danield9tqh@gmail.com>"
+depends: [ "ocaml" "ocamlfind" "cryptokit" ]
+build: ["dune" "build" "-p" name "-j" jobs]
